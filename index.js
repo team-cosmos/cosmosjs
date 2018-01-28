@@ -38,7 +38,6 @@ var sendToken = function(nonceValue) {
 }
 
 /* Call contract function */
-const SolidityFunction = require('web3/lib/web3/function');
 let cosmosGodAddress = '0x2E20eD696e36005a2BcE073c727761504673d407';
 let cosmosAddress = '0x9f8df0243C394A62C4bf9dBCA24Ad9d77874Acc8';
 var fs = require('fs');
