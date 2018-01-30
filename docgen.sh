@@ -3,4 +3,5 @@
         ./lib/accounts/*.js \
         ./lib/util/*.js     \
         ./lib/grid/*.js     \
+        ./README.md          \
     -d ./docs
