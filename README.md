@@ -22,9 +22,9 @@ const ethClient = 'YOUR_ETHEREUM_CLIENT_URL'; // For example - 'https://ropsten.
 var Web3 = require('web3');
 web3 = new Web3(new Web3.providers.HttpProvider(ethClient));
 
-
+/* Initialize cosmosjs */
 var Cosmos = require('cosmosjs');
 var cosmos = Cosmos(web3);
 ```
 
-Read the [Docs](https://www.google.com)
+Read the [Docs](https://team-cosmos.github.io/cosmosjs/)
